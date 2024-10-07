@@ -1,8 +1,8 @@
 Is=input("number")
 Is=float(Is)
 if Is == 0:
-    print("This number is equal to zero")
-
-elif Is != 0:
-    print("This number is diffrent to zero")
-
+    print("this number is both positive and negative")
+if Is  <0:
+    print("Number given by you is Negative")
+if Is >0:   
+     print("Number given by you is Positive")   
